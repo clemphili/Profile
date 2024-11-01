@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebf0; /* Pastel pink background */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #6a4c93; /* Soft pastel purple text */
+}
+
+/* Center Container */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* Card Style */
+.card-white {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #ffd1dc; /* Light pastel pink border */
+}
+
+/* Profile Image */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 3px solid #ffb3c6; /* Pastel border around image */
+}
+
+/* Header */
+h1 {
+    font-size: 1.8em;
+    color: #ff80ab; /* Soft pastel pink */
+    margin-bottom: 10px;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 1.4em;
+    color: #ff9e80; /* Pastel peach */
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1em;
+    color: #826fa3; /* Soft pastel lavender */
+    line-height: 1.6;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: #f48fb1; /* Light pastel pink button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff5c8d; /* Darker pastel pink on hover */
+}
+
+/* Font Styling */
+h1, h2, p {
+    font-family: 'Comic Sans MS', sans-serif; /* Adds to the cute aesthetic */
+}
